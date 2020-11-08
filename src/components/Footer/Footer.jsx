@@ -40,6 +40,7 @@ const Footer = () => {
         <p className='footer__text'>
           © {new Date().getFullYear()}{' '}
           <a
+            key={networks.id}
             href='https://github.com/oaluna'
             target='_blank'
             rel='noopener noreferrer'
