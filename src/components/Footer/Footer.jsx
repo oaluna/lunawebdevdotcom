@@ -1,4 +1,5 @@
 import React, { useContext } from 'react'
+import { nanoid } from 'nanoid'
 import { Container } from 'react-bootstrap'
 import { Link } from 'react-scroll'
 import PortfolioContext from '../../context/context'
@@ -40,7 +41,7 @@ const Footer = () => {
         <p className='footer__text'>
           © {new Date().getFullYear()}{' '}
           <a
-            key={networks.id}
+            key={nanoid()}
             href='https://github.com/oaluna'
             target='_blank'
             rel='noopener noreferrer'
