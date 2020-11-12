@@ -46,7 +46,7 @@ export const projectsData = [
     title: 'Personal Blog',
     info: 'Simple Blog site created using Next.js',
     info2: 'Created as a means to practice server-side rendering',
-    url: 'http://next-js-blog-xi.vercelapp.com',
+    url: 'http://next-js-blog.oaluna.vercelapp.com',
     repo: 'https://github.com/oaluna/next.js-blog', // if no repo, the button will not show up
   },
   {
@@ -90,6 +90,16 @@ export const footerData = {
       id: nanoid(),
       name: 'github',
       url: 'https://github.com/oaluna',
+    },
+    {
+      id: nanoid(),
+      name: 'dev',
+      url: 'https://dev.to/oaluna',
+    },
+    {
+      id: nanoid(),
+      name: 'facebook',
+      url: 'https://facebook.com/aka.kay.drama',
     },
   ],
 }
