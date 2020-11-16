@@ -20,7 +20,7 @@ export const aboutData = {
   img: 'meeeee.jpg',
   paragraphOne: `I'm `,
   paragraphOneName: `Oscar`,
-  paragraphOneCont: `a San Francisco-based web developer. I create and deploy web applications for businesses in every market: sports stores, e-commerce, bidding, booking, blogs, social media, media-streaming. I will work with your vision and bring it to life.`,
+  paragraphOneCont: `a San Francisco-based web developer. I create and deploy web applications for businesses in every market: sports stores, e-commerce,  booking, blogs, social media, media-streaming. I will work with your vision and bring it to life.`,
   paragraphTwo:
     'This is a one-stop-shop for web design/development services to help you create and launch your web application. Check us out and get your website quote today!',
   paragraphThree:
@@ -44,10 +44,11 @@ export const projectsData = [
     id: nanoid(),
     img: 'lunawebsolutionsblog.png',
     title: 'Personal Blog',
-    info: 'Simple Blog site created using Next.js',
-    info2: 'Created as a means to practice server-side rendering',
-    url: 'http://next-js-blog.oaluna.vercelapp.com',
-    repo: 'https://github.com/oaluna/next.js-blog', // if no repo, the button will not show up
+    info: 'Personal blog site created using Stackbit through Dev.to',
+    info2:
+      'I document my learning path here. Stackbit created a blog site from my Dev.to feed and also generated a repository for it, so I was able to push some style customizations to it.',
+    url: 'https://lunadevblog.netlify.app',
+    repo: 'https://github.com/oaluna/lunadevblog', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -93,18 +94,18 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'dev',
-      url: 'https://dev.to/oaluna',
+      name: 'facebook',
+      url: 'https://facebook.com/aka.kay.drama',
     },
     {
       id: nanoid(),
-      name: 'facebook',
-      url: 'https://facebook.com/aka.kay.drama',
+      name: 'desktop',
+      url: 'https://lunadevblog.netlify.app',
     },
   ],
 }
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 }
