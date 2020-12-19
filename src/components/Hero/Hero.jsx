@@ -25,11 +25,21 @@ const Header = () => {
     <section id='hero' className='jumbotron'>
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance='30px'>
-          <h3 className='hero-title'>
-            {title || <span className='text-color-main'>{name}</span>}
+          <h3 className='hero-title'>{title || <span>{name}</span>}</h3>
+
+          <h4
+            className='hero-subtitle'
+            style={{
+              fontSize: '48px',
+              mixBlendMode: 'color-burn',
+              fontWeight: 900,
+              marginTop: '-10vh',
+              marginBottom: '20vh',
+            }}
+          >
             <br />
             {subtitle}
-          </h3>
+          </h4>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance='30px'>
           <p className='hero-cta'>

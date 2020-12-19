@@ -32,21 +32,21 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'lunasportsstore.png',
-    title: 'Sports Store Shopping Application',
+    img: 'lws-landing-demo.png',
+    title: 'Demo Landing Site',
     info:
-      'Shopping application created using React, Firebase, and deployed to Vercel. Includes 0Auth, mock product database, shopping cart, form validation, and user CRUD operations',
-    info2: 'Also includes Stripe Connect',
-    url: 'http://lunasportsstore.vercel.app',
-    repo: 'https://github.com/oaluna/react-sports-store', // if no repo, the button will not show up
+      'I created a landing site that was initially inspired by the lovely gradient featured on Stripe.com. I attempted to recreate the animation in the banner, then went on to add demo sections.',
+    info2: 'Contains functioning anchor links',
+    url: 'https://lws-landing-demo.vercel.app/',
+    repo: 'https://github.com/oaluna/luna-websolutions', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'lunawebsolutionsblog.png',
+    img: 'lunadevblog.png',
     title: 'Personal Blog',
     info: 'Personal blog site created using Stackbit through Dev.to',
     info2:
-      'I document my learning path here. Stackbit created a blog site from my Dev.to feed and also generated a repository for it, so I was able to push some style customizations to it.',
+      'I document my learning path here. I use the Stackbit CMS to generate my blog site, then added some further styling customizations.',
     url: 'https://lunadevblog.netlify.app',
     repo: 'https://github.com/oaluna/lunadevblog', // if no repo, the button will not show up
   },
