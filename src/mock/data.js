@@ -1,13 +1,11 @@
 import { nanoid } from 'nanoid'
 
-// HEAD DATA
 export const headData = {
-  title: 'Oscar Armando Luna', // e.g: 'Name | Developer'
-  lang: 'en', // e.g: en, es, fr, jp
-  description: 'Web Developer for Hire', // e.g: Welcome to my website
+  title: 'Oscar Armando Luna',
+  lang: 'en',
+  description: 'Web Developer for Hire',
 }
 
-// HERO DATA
 export const heroData = {
   title: '',
   name: 'Oscar Armando Luna',
@@ -15,20 +13,18 @@ export const heroData = {
   cta: 'Get Started',
 }
 
-// ABOUT DATA
 export const aboutData = {
   img: 'meeeee.jpg',
   paragraphOne: `I'm `,
   paragraphOneName: `Oscar`,
-  paragraphOneCont: `a San Francisco-based web developer. I create and deploy web applications for businesses in every market: sports stores, e-commerce,  booking, blogs, social media, media-streaming. I will work with your vision and bring it to life.`,
+  paragraphOneCont: `a San Francisco-based web developer. I create and deploy web applications for businesses in every market: sports stores, e-commerce,  event booking, blogs, social media, streaming. I will work with your vision and bring it to life.`,
   paragraphTwo:
-    'This is a one-stop-shop for web design/development services to help you create and launch your web application. Check us out and get your website quote today!',
+    'This is a one-stop-shop for web design/development services to help you create and launch your web application. Check out the demos below, or send a message and get your website quote today!',
   paragraphThree:
     'You can also schedule a free 30-minute web design consultation if you have questions regarding your web development needs, at no obligation.',
-  resume: 'https://drive.google.com/file/d/1hWzIGHlLDWl5YxHG-6qoncbnNKYQbhuZ/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1hWzIGHlLDWl5YxHG-6qoncbnNKYQbhuZ/view?usp=sharing',
 }
 
-// PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
@@ -38,8 +34,9 @@ export const projectsData = [
       'I created a landing site that was initially inspired by the lovely gradient featured on Stripe.com. I attempted to recreate the animation in the banner, then went on to add demo sections.',
     info2: 'Contains functioning anchor links',
     url: 'https://lws-landing-demo.vercel.app/',
-    repo: 'https://github.com/oaluna/luna-websolutions', // if no repo, the button will not show up
+    repo: 'https://github.com/oaluna/luna-websolutions',
   },
+
   {
     id: nanoid(),
     img: 'lunadevblog.png',
@@ -50,6 +47,7 @@ export const projectsData = [
     url: 'https://lunadevblog.netlify.app',
     repo: 'https://github.com/oaluna/lunadevblog', // if no repo, the button will not show up
   },
+
   {
     id: nanoid(),
     img: 'crwn-clothing-2020.png',
@@ -57,19 +55,17 @@ export const projectsData = [
     info:
       'Shopping application created using Redux and Apollo. Includes Stripe payment API, Google Sign-in, and stunning UI.',
     info2: 'Deployed to Heroku',
-    url: 'http://react-final-crwn-clothing.herokuapp.com',
+    url: 'http://lws-shopping-demo.herokuapp.com',
     repo: 'https://github.com/oaluna/react-final-crwn-clothing', // if no repo, the button will not show up
   },
 ]
 
-// CONTACT DATA
 export const contactData = {
   cta: 'Book a free 30-minute web design/development consultation',
   btn: 'Book Now',
   email: 'oscarluna.webdev@gmail.com',
 }
 
-// FOOTER DATA
 export const footerData = {
   networks: [
     {
@@ -77,6 +73,7 @@ export const footerData = {
       name: 'twitter',
       url: 'https://twitter.com/LunaWebDev',
     },
+
     {
       id: nanoid(),
       name: 'codepen',
@@ -105,7 +102,6 @@ export const footerData = {
   ],
 }
 
-// Github start/fork buttons
 export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false,
 }
